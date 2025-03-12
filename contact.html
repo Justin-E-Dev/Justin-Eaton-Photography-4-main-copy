@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    
+  </head>
+  <body>
+    <div id="nav-container">
+      <header class="header-1">
+        <div class="nav-container">
+          <ul>
+            <li data-button="1">
+              <div class="logo-container">
+                <a href="index.html"
+                  ><img class="logo" src="https://res.cloudinary.com/dmwwwxfog/image/upload/v1741753346/logo_now47q.png" alt=""
+                /></a>
+              </div>
+            </li>
+            <li data-button="2" class="center-pages">
+              <a href="index.html">HOME</a>
+            </li>
+            <li data-button="3" class="center-pages">
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li data-button="4" class="center-pages">
+              <a href="gallery.html">GALLERY</a>
+            </li>
+            <li data-button="5">
+              <a href="contact.html"
+                ><button class="contact-btn">CONTACT</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    
+    <form action="https://formspree.io/f/xldrewrj"
+    method="POST">
+
+    <div class="content-container">
+      <div class="contact-form">
+        <h1>Contact Form</h1>
+
+        <input type="text" name="first" placeholder="first name" />
+        <input type="text" name="last" placeholder="last name" />
+        <input type="email" name="email" placeholder="email" />
+        <textarea rows="5" cols="60" placeholder="type message here..." name="message" id="message"></textarea>
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

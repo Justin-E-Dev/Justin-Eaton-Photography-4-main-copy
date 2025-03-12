@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Questrial", sans-serif;
+  font-size: 24px;
+}
+
+body {
+  background-color: rgb(62, 62, 62);
+}
+
+/* Navbar */
+
+.logo-container {
+  display: inline-block;
+  width: 200px;
+  align-items: left;
+  left: 0;
+}
+
+.logo {
+  display: inline-block;
+  z-index: 102;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.logo:active {
+  opacity: 0.4;
+}
+
+.center-pages,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 97px;
+}
+
+.center-pages,
+li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  font-weight: 700;
+}
+
+.center-pages,
+a {
+  text-decoration: none;
+  color: rgb(255, 222, 23);
+  font-size: 24px;
+  font-weight: 1000;
+  z-index: 101;
+  transition: 0.15s;
+}
+
+.center-pages a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.center-pages a:active {
+  opacity: 0.6;
+}
+
+.contact-btn {
+  color: rgb(98, 98, 98);
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+  z-index: 101;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.nav-container {
+  width: 100%;
+  position: fixed;
+  height: 97px;
+  background-color: rgb(109, 109, 109);
+  z-index: 100;
+  box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 0.5);
+  margin-top: -107px;
+}
+
+.contact-btn {
+  background-color: rgb(255, 222, 23);
+  padding: 10px 15px;
+}
+
+.contact-btn:hover {
+  color: rgb(42, 42, 42);
+  cursor: pointer;
+}
+
+.contact-btn:active {
+  opacity: 0.6;
+}
+
+/* End */
+
+.page-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-image: url(https://res.cloudinary.com/dmwwwxfog/image/upload/v1741753343/Bridge-1_ret28v.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-top: 107px;
+}
+
+.page-content-child {
+  display: flex;
+  z-index: 1001;
+  width: fit-content;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page-content h1 {
+  color: rgb(167, 142, 0);
+  font-size: 36px;
+  margin-top: 5vh;
+}
+
+.image-1 {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: rgb(255, 222, 23);
+  border-color: rgb(255, 222, 23);
+  background-color: transparent;
+  border-width: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  margin-bottom: 30vh;
+}
